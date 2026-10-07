@@ -54,6 +54,21 @@ INSERT INTO solution VALUES (1, 'name of murderer');
 SELECT value FROM solution;
 ```
 
+# 7.sql
+
+This is something you will find out after you have solved question 6 and inserted the name of the murderer into the solution table.
+
+# NOTE
+
+you may noticed that for the sql-mystery assignment, there are 7 questions but 9 tests.  The tricky part is question 6 and 7.
+
+For both those questions, you need to provide a query that retrieves the murderer.  If you provide a query without using the in operator and without using subqueries, you will not get full marks.  For example say if the murder is John Smith for question 6, you can simply put the following into 6.sql
+
+select 'John Smith'
+
+
+But that would only get you to pass 1 out of 2 tests for question 6, since you didn't use subquery with the in operator.
+
 # Hand-in
 
 Test your solution by executing the following command on the bash terminal:
